@@ -1,0 +1,12 @@
+# Object Types / Data Types
+- Number : 12, 3.14, 3+4j, 0b111, Decimal
+- String : 'Spam', "Bob's", b'a\x01c
+- List : [1,2,['a','b'], list(range(10))]
+- Tuple : (1, 'spam', 4, 'u), tuple('spam')
+- Dictonary : {"Name":"Sushanta,"food":"Mango"}, dict(hours=10)
+- Set : set('abc'), {'a','b','c'}
+- File : open('mytax.txt'), open(r'c:\mytax.txt','wb')
+- Boolean : True, False
+- None: none
+- Functions, Modules, Classes
+- Advance : Decorater, Generator, Iterator, Meta Programming
