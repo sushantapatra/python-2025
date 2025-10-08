@@ -1,6 +1,18 @@
-print("Hello, World!")
-my_list=[1,2,3,4,5]
-my_list.append(6)
+import importlib
+import pkgutil
+import django
 
-my_list.__sizeof__()
-print(my_list.__sizeof__())
+from django import views
+
+
+# django_db = importlib.import_module('django.db')
+# print(django_db)
+# print(dir(django_db))
+
+# for _, module_name, ispkg in pkgutil.iter_modules(django.__path__):
+#     full_name = f'django.{module_name}'
+#     module = importlib.import_module(full_name)
+#     print(f"✅ Loaded: {full_name}")
+
+print(dir(views))
+print(help(views))
